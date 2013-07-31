@@ -1,0 +1,32 @@
+DIGEST 3fcf16f62f9923a3d46f8adf95f4dfe3
+FwriteIsSecure
+R15:29 ModelProperties <> <> lib
+R48:62 AuxiliaryLemmas <> <> lib
+sec 76:88 <> writeIsSecure
+prf 100:107 <> WritePSS
+R126:133 SFSstate <> SFSstate rec
+R144:149 SFSstate <> ENTITY defax
+R199:209 ModelProperties <> SecureState def
+R211:211 writeIsSecure <> t var
+R171:179 TransFunc <> TransFunc ind
+R194:194 writeIsSecure <> t var
+R188:192 SFSstate <> Write constr
+R186:186 writeIsSecure <> s var
+R181:184 writeIsSecure <> eSub var
+R154:164 ModelProperties <> SecureState def
+R166:166 writeIsSecure <> s var
+prf 265:272 <> WritePSP
+R291:298 SFSstate <> SFSstate rec
+R309:314 SFSstate <> ENTITY defax
+R365:376 ModelProperties <> StarProperty def
+R378:378 writeIsSecure <> t var
+R337:345 TransFunc <> TransFunc ind
+R360:360 writeIsSecure <> t var
+R354:358 SFSstate <> Write constr
+R352:352 writeIsSecure <> s var
+R347:350 writeIsSecure <> eSub var
+R319:330 ModelProperties <> StarProperty def
+R332:332 writeIsSecure <> s var
+R433:445 writeIsSecure writeIsSecure <> sec
+R464:471 writeIsSecure <> WritePSS thm
+R473:480 writeIsSecure <> WritePSP thm

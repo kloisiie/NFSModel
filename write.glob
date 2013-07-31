@@ -1,0 +1,40 @@
+DIGEST 65045c54153a2d9ef7a1cd3d638b914c
+Fwrite
+R15:23 DACandMAC <> <> lib
+sec 87:91 <> Write
+var 106:106 Write s
+R110:117 SFSstate <> SFSstate rec
+var 350:350 Write t
+R357:362 SFSstate <> ENTITY defax
+R370:372 Coq.Init.Datatypes <> nat ind
+R382:388 SFSstate <> ENTCONT def
+R393:400 SFSstate <> SFSstate rec
+R407:411 SFSstate <> mkSFS constr
+R446:459 SFSstate <> write_entities defax
+R465:467 write <> buf var
+R463:463 write <> n var
+R461:461 write <> e var
+R435:440 SFSstate <> secmat proj
+R442:442 write <> Write.s var
+R427:429 SFSstate <> cap proj
+R431:431 write <> Write.s var
+R414:421 SFSstate <> entitySC proj
+R423:423 write <> Write.s var
+ind 853:857 <> write
+constr 944:950 <> WriteOK
+R867:872 SFSstate <> ENTITY defax
+R883:888 SFSstate <> ENTITY defax
+R896:898 Coq.Init.Datatypes <> nat ind
+R909:915 SFSstate <> ENTCONT def
+R920:927 SFSstate <> SFSstate rec
+R1079:1083 write <> write ind
+R1102:1102 write <> Write.t var
+R966:972 SFSstate <> fsecmat def
+R975:980 SFSstate <> secmat proj
+R982:982 write <> Write.s var
+R1003:1006 Coq.Init.Datatypes <> None constr
+R1011:1015 Coq.Init.Logic <> False ind
+R1025:1028 Coq.Init.Datatypes <> Some constr
+R1035:1040 ListSet <> set_In def
+R1048:1061 SFSstate <> EntWritingList proj
+R1124:1128 write Write <> sec

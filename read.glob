@@ -1,0 +1,41 @@
+DIGEST 9493f6e16392a96aae9a11266d9c2b31
+Fread
+R15:23 DACandMAC <> <> lib
+sec 85:88 <> Read
+var 103:103 Read s
+R107:114 SFSstate <> SFSstate rec
+ind 427:430 <> read
+constr 515:520 <> ReadOK
+R440:445 SFSstate <> ENTITY defax
+R456:461 SFSstate <> ENTITY defax
+R469:471 Coq.Init.Datatypes <> nat ind
+R488:490 Coq.Init.Specif <> Exc def
+R492:498 SFSstate <> ENTCONT def
+R476:483 SFSstate <> SFSstate rec
+R653:656 read <> read ind
+R711:719 SFSstate <> fentities def
+R722:734 SFSstate <> entitycontent proj
+R736:736 read <> Read.s var
+R686:692 SFSstate <> fsecmat def
+R695:700 SFSstate <> secmat proj
+R702:702 read <> Read.s var
+R759:762 Coq.Init.Datatypes <> None constr
+R770:773 Coq.Init.Datatypes <> None constr
+R779:785 SFSstate <> ENTCONT def
+R801:804 Coq.Init.Datatypes <> None constr
+R809:812 Coq.Init.Datatypes <> None constr
+R818:824 SFSstate <> ENTCONT def
+R837:840 Coq.Init.Datatypes <> Some constr
+R845:848 Coq.Init.Datatypes <> Some constr
+R855:858 Coq.Init.Datatypes <> Some constr
+R861:864 ListFunctions <> take def
+R670:670 read <> Read.s var
+R534:540 SFSstate <> fsecmat def
+R543:548 SFSstate <> secmat proj
+R550:550 read <> Read.s var
+R571:574 Coq.Init.Datatypes <> None constr
+R579:583 Coq.Init.Logic <> False ind
+R593:596 Coq.Init.Datatypes <> Some constr
+R603:608 ListSet <> set_In def
+R616:629 SFSstate <> EntReadingList proj
+R891:894 read Read <> sec

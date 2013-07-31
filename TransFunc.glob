@@ -1,0 +1,48 @@
+DIGEST 6f8a92695565c33054e7df4ea663ea3b
+FTransFunc
+R15:18 read <> <> lib
+R37:41 write <> <> lib
+sec 55:72 <> TransitionFunction
+ind 309:317 <> TransFunc
+constr 380:385 <> DoRead
+constr 544:550 <> DoWrite
+R356:363 SFSstate <> SFSstate rec
+R343:351 SFSstate <> Operation ind
+R331:338 SFSstate <> SFSstate rec
+R321:326 SFSstate <> ENTITY defax
+R410:415 SFSstate <> ENTITY defax
+R426:431 SFSstate <> ENTITY defax
+R439:441 Coq.Init.Datatypes <> nat ind
+R451:453 Coq.Init.Specif <> Exc def
+R455:461 SFSstate <> ENTCONT def
+R477:484 SFSstate <> SFSstate rec
+R516:524 TransFunc <> TransFunc ind
+R538:538 TransFunc <> s var
+R533:536 SFSstate <> Read constr
+R531:531 TransFunc <> s var
+R526:529 TransFunc <> eSub var
+R488:491 read <> read ind
+R509:511 TransFunc <> out var
+R507:507 TransFunc <> s var
+R505:505 TransFunc <> n var
+R500:503 TransFunc <> eObj var
+R495:498 TransFunc <> eSub var
+R493:493 TransFunc <> s var
+R575:580 SFSstate <> ENTITY defax
+R591:596 SFSstate <> ENTITY defax
+R604:606 Coq.Init.Datatypes <> nat ind
+R616:622 SFSstate <> ENTCONT def
+R640:647 SFSstate <> SFSstate rec
+R680:688 TransFunc <> TransFunc ind
+R703:703 TransFunc <> t var
+R697:701 SFSstate <> Write constr
+R695:695 TransFunc <> s var
+R690:693 TransFunc <> eSub var
+R651:655 write <> write ind
+R675:675 TransFunc <> t var
+R671:673 TransFunc <> buf var
+R669:669 TransFunc <> n var
+R664:667 TransFunc <> eObj var
+R659:662 TransFunc <> eSub var
+R657:657 TransFunc <> s var
+R713:730 TransFunc TransitionFunction <> sec

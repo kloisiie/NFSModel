@@ -1,0 +1,31 @@
+DIGEST 21f596ac6e65e7842253a73356b30c03
+FInitialState
+R15:22 SFSstate <> <> lib
+sec 84:95 <> InitialState
+ax 332:342 <> SysEntitySC
+R346:348 ListSet <> set def
+R357:359 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R351:356 SFSstate <> ENTITY defax
+R360:367 SFSstate <> SecClass rec
+ax 380:400 <> SysEntitySCIsPARTFUNC
+R404:413 SFSstate <> IsPARTFUNC def
+R425:435 InitialState <> SysEntitySC defax
+R415:423 SFSstate <> ENTeq_dec prfax
+def 677:685 <> InitState
+R689:696 SFSstate <> SFSstate rec
+R703:707 SFSstate <> mkSFS constr
+R806:814 ListSet <> empty_set def
+R823:825 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R817:822 SFSstate <> ENTITY defax
+R826:832 SFSstate <> ENTCONT def
+R764:772 ListSet <> empty_set def
+R781:783 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R775:780 SFSstate <> ENTITY defax
+R784:797 SFSstate <> ReadingWriting rec
+R722:730 ListSet <> empty_set def
+R739:741 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R733:738 SFSstate <> ENTITY defax
+R742:755 SFSstate <> CapabilityData rec
+R709:719 InitialState <> SysEntitySC defax
+R845:856 InitialState InitialState <> sec
+R875:895 InitialState <> SysEntitySCIsPARTFUNC prfax

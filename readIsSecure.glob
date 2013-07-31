@@ -1,0 +1,32 @@
+DIGEST e0fe19381b2b703ed102ccc250b66026
+FreadIsSecure
+R15:29 ModelProperties <> <> lib
+R48:62 AuxiliaryLemmas <> <> lib
+sec 76:87 <> readIsSecure
+prf 99:105 <> ReadPSS
+R124:131 SFSstate <> SFSstate rec
+R139:144 SFSstate <> ENTITY defax
+R190:200 ModelProperties <> SecureState def
+R202:202 readIsSecure <> t var
+R166:174 TransFunc <> TransFunc ind
+R185:185 readIsSecure <> t var
+R180:183 SFSstate <> Read constr
+R178:178 readIsSecure <> s var
+R176:176 readIsSecure <> e var
+R149:159 ModelProperties <> SecureState def
+R161:161 readIsSecure <> s var
+prf 242:248 <> ReadPSP
+R267:274 SFSstate <> SFSstate rec
+R282:287 SFSstate <> ENTITY defax
+R334:345 ModelProperties <> StarProperty def
+R347:347 readIsSecure <> t var
+R310:318 TransFunc <> TransFunc ind
+R329:329 readIsSecure <> t var
+R324:327 SFSstate <> Read constr
+R322:322 readIsSecure <> s var
+R320:320 readIsSecure <> e var
+R292:303 ModelProperties <> StarProperty def
+R305:305 readIsSecure <> s var
+R383:394 readIsSecure readIsSecure <> sec
+R413:419 readIsSecure <> ReadPSS thm
+R421:427 readIsSecure <> ReadPSP thm
