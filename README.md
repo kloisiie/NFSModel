@@ -13,34 +13,35 @@ Before reading files with names of the form *IsSecure, we suggets to read module
 
 Finally, module ModelLemmas.v states the main lemma of the verification, i.e. basic security theorem.
 
-
-MODULE CONTENTS
-
-Basic definations:
+Basic definations
+=================
 ListSet: identical to ListSet.v of the standard library, except for the definition of set_remove.
 ListFunctions: some definitions and lemmas about lists and sets
 SFSstate: system state definition and other basic definitions.
 DACandMAC: contains preconditions used un many operations' specification
 setCapabilitydata: some auxiliary definitions used in operations
 
-operations:
+Operations
+==========
 create: specification of create
 open: specification of open
 read: specification of read
 write: specification of write
 
-Basis of proof:
+Basis of proof
+==============
 TransFunc: definition of the transition relation
 ModelProperties: formalization of the properties the system (should) verify
 AuxiliaryLemmas: auxiliary lemmas for many proof scripts
 
-Proof of operations:
+Proof of operations
+===================
 readIsSecure: proof scripts of read
 writeIsSecure: proof scripts of write
 
-Proof of secure states:
+Proof of secure states
+======================
 InitialState: defines a possible initial state of the system
 ModelLemmas: contains two lemmas about the system as a whole
-
 
 This is a modification of FSSecModel by Maximiliano Cristi¨¢ from Universidad Nacional de Rosario y Lifia (UNLP), Argentina. Thanks for his contribution.
