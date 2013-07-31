@@ -41,3 +41,6 @@ writeIsSecure: proof scripts of write
 Proof of secure states:
 InitialState: defines a possible initial state of the system
 ModelLemmas: contains two lemmas about the system as a whole
+
+
+This is a modification of FSSecModel by Maximiliano Cristi¨¢ from Universidad Nacional de Rosario y Lifia (UNLP), Argentina. Thanks for his contribution.
