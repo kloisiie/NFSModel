@@ -62,7 +62,7 @@ tauto.
  
 auto. 
  
-eapply (set_union_elim (Aeq_dec:=Aeq_dec)); auto. 
+eapply (set_union_elim Aeq_dec); auto. 
  
 Qed. 
  
@@ -77,13 +77,13 @@ auto.
 cut (set_In x B \/ set_In x C). 
 tauto. 
  
-eapply (set_union_elim (Aeq_dec:=Aeq_dec)). 
+eapply (set_union_elim Aeq_dec). 
 auto. 
  
 Qed. 
  
  
-Lemma Set_removeObj :
+Lemma Set_remove2 :
  forall (B : set A) (x y : A),
  set_In x (set_remove Aeq_dec y B) -> set_In x B. 
 intro; intro; intro. 
@@ -125,7 +125,7 @@ auto.
 intro. 
 auto. 
  
-eapply (set_add_elim (A:=A) (Aeq_dec:=Aeq_dec) (a:=x) (b:=y) (x:=B)). 
+eapply (set_add_elim (A:=A) Aeq_dec). 
 auto. 
  
 Qed. 
@@ -144,7 +144,7 @@ Qed.
 End ListSetLemmas. 
  
 Hint Unfold IsEmpty Included. 
-Hint Resolve Set_removeObj Set_add1 AllWaysIncluded Set_union1 Set_union2
+Hint Resolve Set_remove2 Set_add1 AllWaysIncluded Set_union1 Set_union2
   Set_add2. 
  
  
